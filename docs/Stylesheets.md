@@ -136,7 +136,7 @@ e.g. to configure use of CSS modules within a specific directory:
 ```js
 // Create a rule which uses CSS Modules for CSS imported from src/components
 {
-  include: path.resolve('src/components')
+  include: path.resolve('src/components'),
   // The 'css' property within a stylesheet rule configures options for css-loader
   css: {
     modules: true,
@@ -169,7 +169,7 @@ module.exports = {
       css: [
         // Create a rule which uses CSS modules for CSS imported from src/components
         {
-          include: path.resolve('src/components')
+          include: path.resolve('src/components'),
           // Configuration options for css-loader
           css: {
             modules: true,
