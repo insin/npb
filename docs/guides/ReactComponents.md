@@ -412,6 +412,51 @@ module.exports = {
 };
 ```
 
+### Adding a css pre-processor for sass
+
+Install `node-sass-chokidar` and `npm-run-all`.
+
+```sh
+npm install node-sass-chokidar npm-run-all --save-dev
+```
+
+Update your `package.json` accordingly:
+
+```json
+"scripts": {
+    "start": "npm-run-all -p build-css start-js",
+    "start-js": "nwb serve-react-demo",
+    "build": "npm-run-all build-css build-js",
+    "build-css": "node-sass-chokidar src/styles/ -o src/styles",
+    "build-js": "nwb build-react-component --copy-files",
+    "watch-css": "npm run build-css && node-sass-chokidar src/styles/ -o src/styles --watch --recursive"
+}
+```
+
+The location `src/styles` is the location of your sass files. Remember to create a base sass file called `style.scss` where you import all the other sass. The other sass files should have filenames beginning with a `_`. For eg:
+
+```
+react-loading-button/
+  src/
+    styles/
+      _sass_file_one.scss
+      _sass_file_two.scss
+      styles.scss
+    index.js
+```
+
+The sass files will processed to a `styles.css` file which you will have to import to your component.
+
+```js
+import '../styles/style.css'
+```
+
+The css file will also be available on your build. Don't forget to add the css file to your `.gitignore`. For eg:
+
+```
+src/**/*.css
+```
+
 ### Feature Toggles
 
 Pass flags when running the build to toggle certain features off.
