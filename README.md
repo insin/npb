@@ -184,14 +184,11 @@ cd my-module/
 
 *Operating system icons created with [Icons8](https://icons8.com/)*
 
-[travis-badge]: https://img.shields.io/travis/insin/nwb/master.png?style=flat-square
+[travis-badge]: https://img.shields.io/travis/insin/nwb/master.svg?style=flat-square
 [travis]: https://travis-ci.org/insin/nwb
-
-[appveyor-badge]: https://img.shields.io/appveyor/ci/insin/nwb/master.png?style=flat-square
+[appveyor-badge]: https://img.shields.io/appveyor/ci/insin/nwb/master.svg?style=flat-square
 [appveyor]: https://ci.appveyor.com/project/insin/nwb
-
-[npm-badge]: https://img.shields.io/npm/v/nwb.png?style=flat-square
+[npm-badge]: https://img.shields.io/npm/v/nwb.svg?style=flat-square
 [npm]: https://www.npmjs.org/package/nwb
-
-[coveralls-badge]: https://img.shields.io/coveralls/insin/nwb/master.png?style=flat-square
+[coveralls-badge]: https://img.shields.io/coveralls/insin/nwb/master.svg?style=flat-square
 [coveralls]: https://coveralls.io/github/insin/nwb
