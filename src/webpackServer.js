@@ -79,7 +79,7 @@ export default function webpackServer(args, buildConfig, cb) {
       serverConfig.historyApiFallback = args.fallback
     }
     // The host can be overridden with --host
-    if (args.host) serverConfig.host = args.host
+    serverConfig.host = args.host || 'localhost'
     // Open a browser with --open (default browser) or --open="browser name"
     if (args.open) serverConfig.open = args.open
 
