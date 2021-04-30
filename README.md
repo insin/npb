@@ -48,7 +48,7 @@ npm install --save-dev nwb
 
 ## Quick Development
 
-For quick development with [React](https://facebook.github.io/react/), [Inferno](https://infernojs.org/), [Preact](https://preactjs.com/) or vanilla JavaScript, use the `nwb react`, `nwb inferno`, `nwb preact` or `nwb web`commands.
+For quick development with [React](https://facebook.github.io/react/), [Inferno](https://infernojs.org/), [Preact](https://preactjs.com/) or vanilla JavaScript, use the `nwb react`, `nwb inferno`, `nwb preact` or `nwb web` commands.
 
 ```js
 import React, {Component} from 'react'
