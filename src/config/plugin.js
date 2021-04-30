@@ -11,7 +11,7 @@ function getPackagePlugins(cwd) {
   return [
     ...Object.keys(pkg.dependencies || {}),
     ...Object.keys(pkg.devDependencies || {}),
-  ].filter(dep => /^nwb-/.test(dep))
+  ].filter(dep => /^(@[^/]+\/)?nwb-/.test(dep))
 }
 
 /**

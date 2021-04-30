@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "nwb-testplugin": "*"
+    "nwb-testplugin": "*",
+    "@vendor/nwb-testplugin": "*"
   }
 }
