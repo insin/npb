@@ -37,7 +37,7 @@
     "fs-extra": "9.1.0",
     "gzip-size": "6.0.0",
     "inquirer": "8.0.0",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "ora": "5.4.0",
     "resolve": "1.20.0",
     "run-series": "1.1.9",

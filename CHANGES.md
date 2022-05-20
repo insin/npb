@@ -50,6 +50,7 @@
 - karma-sourcemap-loader: v0.3.7 → v0.3.8
 - karma-webpack: v4.0.2 → v5.0.0
 - mini-css-extract-plugin: v0.9.0 → v1.4.0
+- minimist: v1.2.5 → v1.2.6
 - mocha: v7.1.2 → v8.3.2
 - open: v7.0.4 → v8.0.7
 - ora: v4.0.4 → v5.4.0
